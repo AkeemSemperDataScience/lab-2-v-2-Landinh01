@@ -19,14 +19,14 @@ def lab2Question2(number_val):
     # If the first number is greater than the input, return an empty list or just [0]
     if number_val < 0:
         return []
-    return fib_sequence
+    return fibonacci_sequence
     pass
 
 def lab2Question3(str1, str2):
     # Create a function that takes in two strings - str1 and str2
     # Return the number of times str2 appears in str1
     # For example if str1 = "coding is cool" and str2 = "co" then output should be 2.
-    count_substring(str1, str2):
+    
     return str1.count(str2)
     pass
 
